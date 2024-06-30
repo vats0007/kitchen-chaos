@@ -18,6 +18,9 @@ public class MainMenuUI : MonoBehaviour
             //Click
             Application.Quit();
         });
+
+        //reseting unpaused
+        Time.timeScale = 1f;
     }
 
     
